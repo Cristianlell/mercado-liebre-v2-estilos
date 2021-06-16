@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ===== CABECERA ==== */
+
+header{
+    background-color:var(--amarillo);
+    /* background-color: #; */
+    text-align: center;
+}
+
+ /*== LOGO - BUSCAR */
+
+.logo-buscar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+
+}
+
+.buscar{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+/*== COPY y BURGER*/
+
+.copy{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.burger{
+    background: var(--celeste);
+    color: white;
+    font-size: 20px;
+    padding: 8px 17px;
+    margin: 25px 0px 15px 0px;
+    border: 1px solid var(--celeste);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*== NAV ===*/
+.nav{
+    display: none;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* === TITULOS PARRAFOS === */
+
+h3{
+    font-size: 24px;
+
+}
+
+.precio{
+    font-size: 18px;
+}
+
+span, .descripciones{
+    font-size: 16px;
+}
+
+
+
+/* ==== IMG === */
+
+main section article img{
+    width: 100vw;
+}
+
+
+/* === FOOTER === */
+
+footer section {
+    text-align: center;
+    margin: 55px;
+}
+
+footer .fas{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+   
+}
+
+footer section h4{
+    font-size: 18px;
+}
+
+footer section p{
+    font-size: 12px;
+}
+footer .copyright{
+    margin: 10px;
+    text-align: left;
+}
+
