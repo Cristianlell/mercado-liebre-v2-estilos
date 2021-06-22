@@ -51,10 +51,6 @@ header{
 }
 
 /*== NAV ===*/
-.nav{
-    display: none;
-
-}
 .nav li a{
     text-decoration: none;
     color: black;
